@@ -16,6 +16,8 @@
 		F6C5CEF51C619F9F00D59342 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6C5CEF11C619F9F00D59342 /* NotoSans-BoldItalic.ttf */; };
 		F6C5CEF61C619F9F00D59342 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6C5CEF21C619F9F00D59342 /* NotoSans-Italic.ttf */; };
 		F6C5CEF71C619F9F00D59342 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6C5CEF31C619F9F00D59342 /* NotoSans-Regular.ttf */; };
+		F6C5CEF91C61A2BD00D59342 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEF81C61A2BD00D59342 /* MaterialView.swift */; };
+		F6C5CEFC1C61A32F00D59342 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEFB1C61A32F00D59342 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F6C5CEF11C619F9F00D59342 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		F6C5CEF21C619F9F00D59342 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		F6C5CEF31C619F9F00D59342 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		F6C5CEF81C61A2BD00D59342 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		F6C5CEFB1C61A32F00D59342 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		F6C5CEED1C619F5700D59342 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				F6C5CEF81C61A2BD00D59342 /* MaterialView.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -100,12 +105,21 @@
 		F6C5CEEF1C619F6200D59342 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				F6C5CEFA1C61A31000D59342 /* util */,
 				F6C5CEF01C619F9F00D59342 /* NotoSans-Bold.ttf */,
 				F6C5CEF11C619F9F00D59342 /* NotoSans-BoldItalic.ttf */,
 				F6C5CEF21C619F9F00D59342 /* NotoSans-Italic.ttf */,
 				F6C5CEF31C619F9F00D59342 /* NotoSans-Regular.ttf */,
 			);
 			name = resources;
+			sourceTree = "<group>";
+		};
+		F6C5CEFA1C61A31000D59342 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5CEFB1C61A32F00D59342 /* Constants.swift */,
+			);
+			name = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C5CEF91C61A2BD00D59342 /* MaterialView.swift in Sources */,
 				F6C5CEDD1C619F4200D59342 /* ViewController.swift in Sources */,
 				F6C5CEDB1C619F4200D59342 /* AppDelegate.swift in Sources */,
+				F6C5CEFC1C61A32F00D59342 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
