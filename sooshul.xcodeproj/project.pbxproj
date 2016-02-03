@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1736D915C3587256381C7CF /* Pods_sooshul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375546486BFD4A70CDA0D562 /* Pods_sooshul.framework */; };
 		F6C5CEDB1C619F4200D59342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEDA1C619F4200D59342 /* AppDelegate.swift */; };
 		F6C5CEDD1C619F4200D59342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEDC1C619F4200D59342 /* ViewController.swift */; };
 		F6C5CEE01C619F4200D59342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C5CEDE1C619F4200D59342 /* Main.storyboard */; };
@@ -20,9 +21,14 @@
 		F6C5CEFC1C61A32F00D59342 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEFB1C61A32F00D59342 /* Constants.swift */; };
 		F6C5CEFE1C61A78300D59342 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEFD1C61A78300D59342 /* MaterialButton.swift */; };
 		F6C5CF001C61AA5D00D59342 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEFF1C61AA5D00D59342 /* MaterialTextField.swift */; };
+		F6C5CF051C61B04700D59342 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C5CF021C61B04700D59342 /* Bolts.framework */; };
+		F6C5CF061C61B04700D59342 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C5CF031C61B04700D59342 /* FBSDKCoreKit.framework */; };
+		F6C5CF071C61B04700D59342 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C5CF041C61B04700D59342 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04CA43B8D69C4C488CE4C9B0 /* Pods-sooshul.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sooshul.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sooshul/Pods-sooshul.debug.xcconfig"; sourceTree = "<group>"; };
+		375546486BFD4A70CDA0D562 /* Pods_sooshul.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sooshul.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C5CED71C619F4200D59342 /* sooshul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sooshul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C5CEDA1C619F4200D59342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6C5CEDC1C619F4200D59342 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,10 @@
 		F6C5CEFB1C61A32F00D59342 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F6C5CEFD1C61A78300D59342 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		F6C5CEFF1C61AA5D00D59342 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		F6C5CF021C61B04700D59342 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F6C5CF031C61B04700D59342 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F6C5CF041C61B04700D59342 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FEBFB5BB7B5809FF15B2AEE1 /* Pods-sooshul.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sooshul.release.xcconfig"; path = "Pods/Target Support Files/Pods-sooshul/Pods-sooshul.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +55,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C5CF051C61B04700D59342 /* Bolts.framework in Frameworks */,
+				F6C5CF061C61B04700D59342 /* FBSDKCoreKit.framework in Frameworks */,
+				F6C5CF071C61B04700D59342 /* FBSDKLoginKit.framework in Frameworks */,
+				D1736D915C3587256381C7CF /* Pods_sooshul.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		126A95436998CBD3F2E6EEDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375546486BFD4A70CDA0D562 /* Pods_sooshul.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		411B434802911A420BC21697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04CA43B8D69C4C488CE4C9B0 /* Pods-sooshul.debug.xcconfig */,
+				FEBFB5BB7B5809FF15B2AEE1 /* Pods-sooshul.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F6C5CECE1C619F4200D59342 = {
 			isa = PBXGroup;
 			children = (
 				F6C5CED91C619F4200D59342 /* sooshul */,
 				F6C5CED81C619F4200D59342 /* Products */,
+				411B434802911A420BC21697 /* Pods */,
+				126A95436998CBD3F2E6EEDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +103,7 @@
 		F6C5CED91C619F4200D59342 /* sooshul */ = {
 			isa = PBXGroup;
 			children = (
+				F6C5CF011C61B02A00D59342 /* frameworks */,
 				F6C5CEEF1C619F6200D59342 /* resources */,
 				F6C5CEEE1C619F5C00D59342 /* model */,
 				F6C5CEED1C619F5700D59342 /* view */,
@@ -128,6 +162,16 @@
 			name = util;
 			sourceTree = "<group>";
 		};
+		F6C5CF011C61B02A00D59342 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5CF021C61B04700D59342 /* Bolts.framework */,
+				F6C5CF031C61B04700D59342 /* FBSDKCoreKit.framework */,
+				F6C5CF041C61B04700D59342 /* FBSDKLoginKit.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6C5CEE91C619F4200D59342 /* Build configuration list for PBXNativeTarget "sooshul" */;
 			buildPhases = (
+				C16641E1139C475834DF2E7C /* Check Pods Manifest.lock */,
 				F6C5CED31C619F4200D59342 /* Sources */,
 				F6C5CED41C619F4200D59342 /* Frameworks */,
 				F6C5CED51C619F4200D59342 /* Resources */,
+				52FA7458C12A3C2ADAC57EF6 /* Embed Pods Frameworks */,
+				424C71974A8BC29EA9316CD1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +244,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		424C71974A8BC29EA9316CD1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sooshul/Pods-sooshul-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52FA7458C12A3C2ADAC57EF6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sooshul/Pods-sooshul-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16641E1139C475834DF2E7C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6C5CED31C619F4200D59342 /* Sources */ = {
@@ -317,8 +412,13 @@
 		};
 		F6C5CEEA1C619F4200D59342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CA43B8D69C4C488CE4C9B0 /* Pods-sooshul.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sooshul",
+				);
 				INFOPLIST_FILE = sooshul/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = makenawalsh.sooshul;
@@ -328,8 +428,13 @@
 		};
 		F6C5CEEB1C619F4200D59342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBFB5BB7B5809FF15B2AEE1 /* Pods-sooshul.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sooshul",
+				);
 				INFOPLIST_FILE = sooshul/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = makenawalsh.sooshul;
@@ -356,6 +461,7 @@
 				F6C5CEEB1C619F4200D59342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

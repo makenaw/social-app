@@ -1,0 +1,6 @@
+framework module Pods_sooshul {
+  umbrella header "Pods-sooshul-umbrella.h"
+
+  export *
+  module * { export * }
+}
