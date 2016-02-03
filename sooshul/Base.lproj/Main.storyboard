@@ -5,6 +5,12 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -20,16 +26,61 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rd-yf-s3e">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="136"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In/Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlh-G9-yoA">
+                                        <rect key="frame" x="20" y="35" width="133" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="c46-Qx-r9Q"/>
+                                            <constraint firstAttribute="width" constant="133" id="rfR-c4-Eac"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="code-icon-logo" translatesAutoresizingMaskIntoConstraints="NO" id="k3s-yf-wlv">
+                                        <rect key="frame" x="548" y="35" width="32" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="32" id="E4j-Bt-jOo"/>
+                                            <constraint firstAttribute="height" constant="36" id="WjQ-Mg-qV6"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.95686274509803915" green="0.31764705882352939" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="k3s-yf-wlv" secondAttribute="trailing" constant="20" id="8va-kC-LC4"/>
                                     <constraint firstAttribute="height" constant="136" id="RLO-hN-z8R"/>
+                                    <constraint firstItem="Dlh-G9-yoA" firstAttribute="leading" secondItem="3rd-yf-s3e" secondAttribute="leading" constant="20" id="RaW-wJ-bUt"/>
+                                    <constraint firstItem="Dlh-G9-yoA" firstAttribute="top" secondItem="3rd-yf-s3e" secondAttribute="top" constant="35" id="fvk-v2-tN9"/>
+                                    <constraint firstItem="k3s-yf-wlv" firstAttribute="top" secondItem="3rd-yf-s3e" secondAttribute="top" constant="35" id="yZA-tm-WLH"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LMv-rx-f5w" customClass="MaterialView" customModule="sooshul" customModuleProvider="target">
                                 <rect key="frame" x="20" y="83" width="560" height="128"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="pak-8a-bcT">
+                                        <rect key="frame" x="20" y="10" width="520" height="108"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb-icon" translatesAutoresizingMaskIntoConstraints="NO" id="wZp-qc-ELr">
+                                                <rect key="frame" x="0.0" y="22" width="65" height="65"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbl-Xj-1xx" customClass="MaterialButton" customModule="sooshul" customModuleProvider="target">
+                                                <rect key="frame" x="105" y="38" width="415" height="33"/>
+                                                <color key="backgroundColor" red="0.11764705882352941" green="0.53333333333333333" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                                <state key="normal" title="FACEBOOK LOGIN">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="pak-8a-bcT" secondAttribute="trailing" constant="20" id="6Fs-wp-fwl"/>
                                     <constraint firstAttribute="height" constant="128" id="QWw-Bl-6gC"/>
+                                    <constraint firstItem="pak-8a-bcT" firstAttribute="leading" secondItem="LMv-rx-f5w" secondAttribute="leading" constant="20" id="YH9-R3-jSe"/>
+                                    <constraint firstItem="pak-8a-bcT" firstAttribute="top" secondItem="LMv-rx-f5w" secondAttribute="top" constant="10" id="v2u-y2-Oiv"/>
+                                    <constraint firstAttribute="bottom" secondItem="pak-8a-bcT" secondAttribute="bottom" constant="10" id="wq0-5M-lIE"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -49,4 +100,8 @@
             <point key="canvasLocation" x="375" y="349"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="code-icon-logo" width="318" height="281"/>
+        <image name="fb-icon" width="65" height="65"/>
+    </resources>
 </document>
