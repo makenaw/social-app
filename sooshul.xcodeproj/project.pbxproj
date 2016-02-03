@@ -19,6 +19,7 @@
 		F6C5CEF91C61A2BD00D59342 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEF81C61A2BD00D59342 /* MaterialView.swift */; };
 		F6C5CEFC1C61A32F00D59342 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEFB1C61A32F00D59342 /* Constants.swift */; };
 		F6C5CEFE1C61A78300D59342 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEFD1C61A78300D59342 /* MaterialButton.swift */; };
+		F6C5CF001C61AA5D00D59342 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CEFF1C61AA5D00D59342 /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F6C5CEF81C61A2BD00D59342 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		F6C5CEFB1C61A32F00D59342 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F6C5CEFD1C61A78300D59342 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		F6C5CEFF1C61AA5D00D59342 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				F6C5CEF81C61A2BD00D59342 /* MaterialView.swift */,
 				F6C5CEFD1C61A78300D59342 /* MaterialButton.swift */,
+				F6C5CEFF1C61AA5D00D59342 /* MaterialTextField.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C5CF001C61AA5D00D59342 /* MaterialTextField.swift in Sources */,
 				F6C5CEF91C61A2BD00D59342 /* MaterialView.swift in Sources */,
 				F6C5CEDD1C619F4200D59342 /* ViewController.swift in Sources */,
 				F6C5CEDB1C619F4200D59342 /* AppDelegate.swift in Sources */,
