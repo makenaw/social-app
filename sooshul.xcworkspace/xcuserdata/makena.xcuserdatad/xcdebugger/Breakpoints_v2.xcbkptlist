@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sooshul/PostCell.swift"
+            timestampString = "476264253.554491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sooshul.PostCell.init (sooshul.PostCell.Type)(style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; sooshul.PostCell"
+                  moduleName = "sooshul"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/makena/Documents/Mobile%20Dev/sooshul/sooshul/PostCell.swift"
+                  timestampString = "476265109.978983"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sooshul.PostCell.init (sooshul.PostCell.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;sooshul.PostCell&gt;"
+                  moduleName = "sooshul"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/makena/Documents/Mobile%20Dev/sooshul/sooshul/PostCell.swift"
+                  timestampString = "476265109.979093"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
