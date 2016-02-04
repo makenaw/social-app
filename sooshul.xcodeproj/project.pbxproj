@@ -27,6 +27,7 @@
 		F6C5CF0A1C62256600D59342 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CF091C62256600D59342 /* DataService.swift */; };
 		F6C5CF0C1C62F60400D59342 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CF0B1C62F60400D59342 /* FeedVC.swift */; };
 		F6C5CF0E1C62F6C800D59342 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CF0D1C62F6C800D59342 /* PostCell.swift */; };
+		F6C5CF101C63102300D59342 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5CF0F1C63102300D59342 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		F6C5CF091C62256600D59342 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		F6C5CF0B1C62F60400D59342 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		F6C5CF0D1C62F6C800D59342 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F6C5CF0F1C63102300D59342 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FEBFB5BB7B5809FF15B2AEE1 /* Pods-sooshul.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sooshul.release.xcconfig"; path = "Pods/Target Support Files/Pods-sooshul/Pods-sooshul.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 		F6C5CEEE1C619F5C00D59342 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				F6C5CF0F1C63102300D59342 /* Post.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				F6C5CEDB1C619F4200D59342 /* AppDelegate.swift in Sources */,
 				F6C5CEFC1C61A32F00D59342 /* Constants.swift in Sources */,
 				F6C5CEFE1C61A78300D59342 /* MaterialButton.swift in Sources */,
+				F6C5CF101C63102300D59342 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
