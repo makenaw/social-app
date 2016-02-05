@@ -93,7 +93,6 @@
 		F6C5CECE1C619F4200D59342 = {
 			isa = PBXGroup;
 			children = (
-				F6C5CF081C62254800D59342 /* services */,
 				F6C5CED91C619F4200D59342 /* sooshul */,
 				F6C5CED81C619F4200D59342 /* Products */,
 				411B434802911A420BC21697 /* Pods */,
@@ -112,6 +111,7 @@
 		F6C5CED91C619F4200D59342 /* sooshul */ = {
 			isa = PBXGroup;
 			children = (
+				F6C5CF081C62254800D59342 /* services */,
 				F6C5CF011C61B02A00D59342 /* frameworks */,
 				F6C5CEEF1C619F6200D59342 /* resources */,
 				F6C5CEEE1C619F5C00D59342 /* model */,
@@ -190,6 +190,7 @@
 				F6C5CF091C62256600D59342 /* DataService.swift */,
 			);
 			name = services;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
