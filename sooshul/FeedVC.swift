@@ -111,7 +111,7 @@ class FeedVC: UIViewController, UITableViewDataSource, UITableViewDelegate, UIIm
                 let keyJSON = "json".dataUsingEncoding(NSUTF8StringEncoding)!
                 
                 Alamofire.upload(.POST, url, multipartFormData: { multipartFormData in
-                    multipartFormData.appendBodyPart(data: imgData, name: "filupload", fileName: "image", mimeType: "image/jpg")
+                    multipartFormData.appendBodyPart(data: imgData, name: "fileupload", fileName: "image", mimeType: "image/jpg")
                     
                     multipartFormData.appendBodyPart(data: keyData, name: "key")
                     multipartFormData.appendBodyPart(data: keyJSON, name: "format")
